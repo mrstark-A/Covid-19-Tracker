@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(250,  2580, 250);
+    background-image: url("https://wallpapercave.com/wp/wp6504007.png");
+     /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img{
+    width: 370px;
+    margin-top: 50px;
+}
+ 
+@media(max-width:770px){
+    .container{
+        margin: 0 10%;
+    }
+    .img{
+        width: 100%;
+    }
+}

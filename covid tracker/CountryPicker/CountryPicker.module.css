@@ -1,0 +1,13 @@
+.formControl {
+    width: 30%;
+    margin-bottom: 30px !important;
+   
+}
+FormControl,option{
+    font-size: 25px;
+    color:#117864 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #D0D3D4;
+    font-weight: 500;
+    padding: 5%;
+}
